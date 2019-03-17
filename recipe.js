@@ -1,4 +1,5 @@
 function validateForm() {
     var name = document.forms["ingredientsForm"]["recipeName"].value;
-    alert(name);
+    var ingredients = document.forms["ingredientsForm"]["ingredients"].value;
+    alert(ingredients);
 }

@@ -8,11 +8,11 @@
             <h1>Recipe Storage Proof of Concept</h1>
         </div>
         <div class="addIngredients">
-        <form name="ingredientsForm" onsubmit="return validateForm()">
+        <form name="ingredientsForm" id="ingfrm" onsubmit="return validateForm()">
             <p>Name of item you're making a recipe for:</p>
             <input type="text" name="recipeName">
             <p>Type in the ingredients, separated by commas, in to the box below, then click "Create Recipe"</p>
-            <textarea name="ingredients"></textarea><br>
+            <textarea name="ingredients" form="ingfrm"></textarea><br>
             <input type="submit" value="Create Recipe">
         </form>
         </div>
