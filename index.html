@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Recipe Storage Proof of Concept</title>
+        <script src="recipe.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>Recipe Storage Proof of Concept</h1>
+        </div>
+        <div class="addIngredients">
+        <form name="ingredientsForm" onsubmit="return validateForm()">
+            <p>Name of item you're making a recipe for:</p>
+            <input type="text" name="recipeName">
+            <p>Type in the ingredients, separated by commas, in to the box below, then click "Create Recipe"</p>
+            <textarea name="ingredients"></textarea><br>
+            <input type="submit" value="Create Recipe">
+        </form>
+        </div>
+        <hr>
+        <p>Recipes will output below:</p>
+        <div class="output">
+
+        </div>
+    </body>
+</html>
